@@ -117,7 +117,7 @@
             "schema": {
               "$ref": "#/components/schemas/FieldURN"
             },
-            "example": "urn:field_data:fdbe6f55-6179-4b88-9177-4afbed33adac"
+            "example": "urn:com.agricircle.atlas.field_data:fdbe6f55-6179-4b88-9177-4afbed33adac"
           }
         ],
         "responses": {
@@ -212,7 +212,7 @@
             "schema": {
               "$ref": "#/components/schemas/FieldURN"
             },
-            "example": "urn:field_data:fdbe6f55-6179-4b88-9177-4afbed33adac"
+            "example": "urn:com.agricircle.atlas.field_data:fdbe6f55-6179-4b88-9177-4afbed33adac"
           }
         ],
         "responses": {
@@ -396,7 +396,7 @@
             "schema": {
               "$ref": "#/components/schemas/AdviceURN"
             },
-            "example": "urn:com.agricircle.atlas.harvesting_advisor:1e371d44-59ae-4af1-9570-9743dd3ba613"
+            "example": "urn:com.agricircle.atlas.harvesting:1e371d44-59ae-4af1-9570-9743dd3ba613"
           }
         ],
         "responses": {
@@ -476,7 +476,7 @@
             "schema": {
               "$ref": "#/components/schemas/AdviceURN"
             },
-            "example": "urn:com.agricircle.atlas.harvesting_advisor:1e371d44-59ae-4af1-9570-9743dd3ba613"
+            "example": "urn:com.agricircle.atlas.harvesting:1e371d44-59ae-4af1-9570-9743dd3ba613"
           }
         ],
         "responses": {
@@ -559,7 +559,7 @@
           "field_urn"
         ],
         "example": {
-          "field_urn": "urn:field_data:fdbe6f55-6179-4b88-9177-4afbed33adac"
+          "field_urn": "urn:com.agricircle.atlas.field_data:fdbe6f55-6179-4b88-9177-4afbed33adac"
         }
       },
       "MonitoringInfo": {
@@ -611,7 +611,7 @@
           "field_urn"
         ],
         "example": {
-          "field_urn": "urn:field_data:fdbe6f55-6179-4b88-9177-4afbed33adac"
+          "field_urn": "urn:com.agricircle.atlas.field_data:fdbe6f55-6179-4b88-9177-4afbed33adac"
         }
       },
       "Advice": {
@@ -651,7 +651,8 @@
         "example": {
           "urn": "urn:com.agricircle.atlas.harvesting:1e371d44-59ae-4af1-9570-9743dd3ba613",
           "type": "harvesting",
-          "field_urn": "urn:field_data:fdbe6f55-6179-4b88-9177-4afbed33adac"
+          "field_urn": "urn:com.agricircle.atlas.field_data:fdbe6f55-6179-4b88-9177-4afbed33adac",
+          "status": "READY"
         }
       },
       "Recommendation": {
